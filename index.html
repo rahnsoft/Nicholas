@@ -12,6 +12,26 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <style>
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+</style>
 </head>
 
 <body>
@@ -49,8 +69,10 @@
     <div id="lead">
    
         <div id="lead-content">
-        
-            <h1>Nicholas Wakaba</h1>
+        <img src="images/profile.png" style="vertical-align: middle; width: 180px;animation: shake 0.5s;height: 180px;border-radius: 50%;"/>
+        <br>
+        <br>
+            <h1>Nicholas Wakaba <br>wambui</h1>
             <h2>Software Engineer</h2>
             <a href="./docs/NicholasWWambuiCurriculumVitae.pdf" class="btn-rounded-white">Download Resume</a>
             
@@ -89,7 +111,15 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
+        <div data-date="2019">
+         <h3>INTSOFT KENYA LIMITED</h3> 
+                <h4>Android Developer Intern</h4>
+                <p>
+                   Worked at Intsoft kenya Ltd, where i got familiar with the MVP architecture,Dependancy Injection using dagger ,a know how of Retrofit for the Application packaging interfaces and vast knowledge in android development. We were able to develop applications that are available on Google play store ;Pms genius a mobile Enterprise Resource planning system.
+                </p>
+                </div>
             <div data-date="2019">
+           
                 <h3>KENYA BROADCASTING CORPORATION</h3>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="https://www.kbc.co.ke">Visit Website</a>
                 <h4>Programmer</h4>
                 <p>
@@ -129,23 +159,78 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+             <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                <div class="project-info">
+                        
+                                               
+                          <h3>Lorvic Tours And Safaris</h3>
+                           <p>
+                           A dynamic web application for Lorvic tours and safaris that enables them to update travel,safaris, and hotel's information on the website where users can book trips ,book safaris and rent vehicles any time and anywhere.
+                       
+                             </p>
+                             <a href="http://lorvictours.epizy.com">Check Website</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/project.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Mechanic on Call</h3>
+                        
+                        <h3>PMSGENIUS</h3>
                            <p>
-                        A Mobile Application developed for a company where a user can login as a Mechanic or Driver. A Mechanic,must be registered by the Firm to confirm competency of so described Job so that they can Login and render their services.Logged in as a driver, one can request a mechanic to come on site where the car is located.The application uses Google Maps for Location Services.   
+                        An integrated, cloud-based application exclusively engineered for comprehensive automation of organizational performance processes. It keeps track of individual, departmental and organizational performance against the set targets.county govenments where a user can login just like the web based ERP. The employee can then carry on with their daily matters, like procurement , auditing, event scheduling events that are part of an organizations routine.   
                              </p>
                              <p>
                              <b> DISCLAIMER :</b>
-                             Code is not available for public review as the Application is already in the Google PlayStore market.
+                            Only employees with county gorvernment credentials can sign in or register.
                             
                              </p>
                        
-                        <a href="https://play.google.com/store/apps/details?id=ke.co.matrixoft.www.mechs">Get App</a>
+                        <a href="https://play.google.com/store/apps/details?id=ke.co.intsoftkenya.iBusiness">Get App</a>
+                        
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        
+                                               
+                          <h3>iCOMS (LAIKIPIA COUNTY)</h3>
+                           <p>
+                      Intergrated County Operation Management System (iCOMS) is an extension of the main ERP system, and its only available to Lakipia county staff, for use in their day to day activities.
+                             </p>
+                             <a href="https://play.google.com/store/apps/details?id=ke.co.intsoftkenya.iComs">Check App</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                <div class="project-info">
+                        
+                                               
+                          <h3>iCOMS (NAKURU COUNTY)</h3>
+                           <p>
+                        Intergrated County Operation Management System (iCOMS) is an extension of the main ERP system, and its only available to Nakuru county staff, for use in their day to day activities.
+                             </p>
+                             <a href="https://play.google.com/store/apps/details?id=ke.co.intsoftkenya.iComsNakuru">Check App</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -227,8 +312,14 @@
                 <div class="col-sm-5 social">
                     <ul>
                     <li>
-                    <p> <i class="fa fa-whatsapp" aria-hidden="true"></i> &nbsp&nbsp <i class="fa fa-phone" aria-hidden="true"></i> &nbsp&nbsp 0706502062</p>
+                   <a href="tel://0706502062"><i class="fa fa-phone" aria-hidden="true"></i></a>
                     
+                    </li>
+                    <li>
+                    <a href="https://www.instagram.com/nicklaus_wakaba"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                    <a href="https://api.whatsapp.com/send?phone=0706502062"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                     </li>
                         <li>
                             <a href="https://github.com/rahnsoft" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -237,14 +328,12 @@
                             <a href="https://www.linkedin.com/in/nicholas-wakaba-8a9a7a144/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://mobile.facebook.com/nicholas.wakaba" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/nicklaus_wakaba" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
